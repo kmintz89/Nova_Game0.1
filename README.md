@@ -1,19 +1,11 @@
-# BlueScreenProductions
-######Master branch for Project PewPew
-
 ## CURRENT BUILD INFO:
 ######Current game build includes:
  - Menu with play button active
  - Temporary instructions screen
+ -Map implimentation
  - Gameplay Mechanincs:-
-  - Two player movement
-  - Controller Support
-  - Collisions
+  - Single PLayer movement
+  - Damage on minion
   - Basic animations for players and enemies
-  - Particle Systems
-  - Bullet firing and deaths
-  - Basic Wave System
+  - Bullet firing
   - Basic placeholder sounds
-  - Basic Powerups (Shotgun/MachineGun)
-  
-  

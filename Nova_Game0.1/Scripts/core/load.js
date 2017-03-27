@@ -7,13 +7,13 @@ var loadState = {
         game.load.image('background2', "././Assets/img/tempGameAssets/map.png");
         game.load.spritesheet('player1', "Assets/img/tempGameAssets/warrior_m.png", 128, 144);
        // game.load.image('Sword', "Assets/img/tempGameAssets/")
-        game.load.image('AK47', "././Assets/img/tempGameAssets/AKF7v2.png");
+        //game.load.image('AK47', "././Assets/img/tempGameAssets/AKF7v2.png");
         //game.load.image('Minion1', "././Assets/img/tempGameAssets/waterElementalSpin.png");
-        game.load.image('HitBox', "././Assets/img/tempGameAssets/hitBox.png");
+        game.load.image('HitBox', "././Assets/img/tempGameAssets/spear.png");
         game.load.spritesheet('Minion1', "Assets/img/tempGameAssets/ice2.png",64,64);
         game.load.image('HUDimage', "././Assets/img/tempGameAssets/HUD01.png");
-        game.load.image('NEXUS',"././Assets/img/tempGameAssets/Nexus1.png")
-        game.load.audio('bulletSfx', "././Assets/sound/Guns/blaster.mp3");
+        game.load.image('NEXUS',"././Assets/img/tempGameAssets/tower.png")
+        game.load.audio('bulletSfx', "././Assets/sound/Guns/swoosh.mp3");
         game.load.audio('bubbleSfx', "././Assets/sound/Blorp/Blorp.mp3");
         game.load.audio('shotgunSfx',"././Assets/sound/Guns/shotgun.mp3");
         game.load.audio('machineGunSfx',"././Assets/sound/Guns/machineGun.mp3");

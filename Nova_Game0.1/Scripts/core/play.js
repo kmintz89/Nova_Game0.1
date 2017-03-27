@@ -32,14 +32,14 @@ playState.prototype = {
         
         this.players.add(this.player1);
         //this.players.add(this.player2);
-        this.iceminion = new Minion(game, 200, 200, 2, this.enemies);
+        //this.iceminion = new Minion(game, 200, 200, 2, this.enemies);
         
         //creating enemy group
         this.enemies = game.add.group();
-        this.enemies.add(this.iceminion);
+        //this.enemies.add(this.iceminion);
         this.enemies.enableBody = true;
         this.enemies.physicsBodyType = Phaser.Physics.ARCADE;
-
+        this.MinionWave();
        // this.scoreCounter1 = game.add.text(70, 10,'P1 Score: ' + this.player1.score,
        //     {font: '20px Times New Roman', fill: '#ffffff' });
 
@@ -85,6 +85,7 @@ playState.prototype = {
 
     },
 
+    
     shutdown: function () {
         //resetting wave properties
         this.waveProperties.timeCheck = 1500;
@@ -101,11 +102,53 @@ playState.prototype = {
             {font: '20px Times New Roman', fill: '#ffffff' });
         
     },
-}
+    
+    MinionWave: function(){
+    
+    
+    this.iceminion1 = new Minion(game, IceSpawnLocations.SP1.x, IceSpawnLocations.SP1.y, 2, this.enemies);
+    this.enemies.add(this.iceminion1);
+
+    this.iceminion2 = new Minion(game, IceSpawnLocations.SP2.x, IceSpawnLocations.SP2.y, 2, this.enemies);
+    this.enemies.add(this.iceminion2);
+
+    this.iceminion3 = new Minion(game, IceSpawnLocations.SP3.x, IceSpawnLocations.SP3.y, 2, this.enemies);
+    this.enemies.add(this.iceminion3);
+
+    this.iceminion4 = new Minion(game, IceSpawnLocations.SP4.x, IceSpawnLocations.SP4.y, 2, this.enemies);
+    this.enemies.add(this.iceminion4);
+
+    this.iceminion5 = new Minion(game, IceSpawnLocations.SP5.x, IceSpawnLocations.SP5.y, 2, this.enemies);
+    this.enemies.add(this.iceminion5);
+    
+    console.log("x: " + IceSpawnLocations.SP1.x);
+    console.log( " y: " + IceSpawnLocations.SP1.y);
+        //var NumberToSpawn = numToSpawn;
+
+        /* for (var i = NumberToSpawn; i >= 0; i--) {
+         
+     
+            if (Team == 'ice'){
+
+            }
+           if (Team == 'fire'){
+            
+            }
+    
+    }*/
+    },
+};
 
 var enemyProperties = {
     Minion1: {hp: 100, minV: 50, maxV: 80, img: 'bigBubble', dmg: 50, points: 10, score: 100}, //DO NOT CHANGE POINTS!
     JungleMinion1: {hp: 50, minV: 100, maxV: 80, img: 'medBubble', dmg: 20, points: 5, score: 50},
     JungleMinion2: {hp: 10, minV: 200, maxV: 80, img: 'smallBubble', dmg: 10, points: 1, score: 25}
 };
-
+var IceSpawnLocations = {
+        SP1: {x: 200, y: 200},
+        SP2: {x: 400, y: 200},
+        SP3: {x: 800, y: 200},
+        SP4: {x: 1000, y: 200},
+        SP5: {x: 1200, y: 200},
+        
+};

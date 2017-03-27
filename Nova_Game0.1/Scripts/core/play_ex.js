@@ -39,7 +39,7 @@ playState.prototype.waveProperties = {
 
 //         }
 //     }
-// };
+// }
 
 playState.prototype.killPlayer = function(player, enemy){
     if (player.invulnerable == false) {

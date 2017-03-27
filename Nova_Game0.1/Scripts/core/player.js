@@ -145,7 +145,7 @@ Player.prototype.createKeys = function(){
                     right: game.input.keyboard.addKey(Phaser.Keyboard.D)
                 };
             this.cursor = wasd;
-            this.fireButton = game.input.keyboard.addKey(Phaser.Keyboard.SHIFT);
+            this.fireButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
             this.pad = game.input.gamepad.pad2;
         }
 };

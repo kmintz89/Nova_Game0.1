@@ -24,7 +24,7 @@ Minion = function(game, x, y, p_num, group){
     this.weapon = null;
     this.isWalking = true;
     this.score = 0;
-    this.group = group;
+    game.addgroup = group;
     this.animations.add('spin', [0,1,2,3], 4, true);
     //this.animations.add('left', [13,12,11,10,9,8,7], 8, true);
     
@@ -50,7 +50,7 @@ Minion.prototype.update = function(){
 };
 
 Minion.prototype.move = function(){
-   this.body.velocity.y = 5;
+   this.body.velocity.y = 50;
    this.animations.play('spin');
 };
 

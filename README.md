@@ -2,7 +2,6 @@
 ######Current game build includes:
  - Menu with play button active
  - Temporary instructions screen
-
  -Map implimentation
  - Gameplay Mechanincs:-
   - Single PLayer movement

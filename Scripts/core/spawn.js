@@ -13,7 +13,7 @@ Minion = function(game, x, y, p_num, group){
     this.body.setSize(128, 128, 0, 10); //reducing the player collision box
     this.body.collideWorldBounds = true;
 
-    this.movementSPD = 1000;
+    this.movementSPD = 300;
     this.hp = 100;    
     this.level = 1;
     this.EXP = 0;
@@ -24,7 +24,7 @@ Minion = function(game, x, y, p_num, group){
     this.weapon = null;
     this.isWalking = true;
     this.score = 0;
-    game.addgroup = group;
+    this.group = group;
     this.animations.add('spin', [0,1,2,3], 4, true);
     //this.animations.add('left', [13,12,11,10,9,8,7], 8, true);
     
@@ -50,7 +50,7 @@ Minion.prototype.update = function(){
 };
 
 Minion.prototype.move = function(){
-   this.body.velocity.y = 50;
+   this.body.velocity.y = 2;
    this.animations.play('spin');
 };
 

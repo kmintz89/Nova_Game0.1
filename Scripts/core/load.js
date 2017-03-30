@@ -6,8 +6,8 @@ var loadState = {
         game.load.tilemap('tileMap', "Assets/TileMaps/ShamansMap.json", null, Phaser.Tilemap.TILED_JSON);
         game.load.image('background2', "././Assets/img/tempGameAssets/map.png");
         game.load.spritesheet('player1', "Assets/img/tempGameAssets/warrior_m.png", 128, 144);
-       // game.load.image('Sword', "Assets/img/tempGameAssets/")
-        game.load.image('AK47', "././Assets/img/tempGameAssets/AKF7v2.png");
+        // game.load.image('Sword', "Assets/img/tempGameAssets/")
+        //game.load.image('AK47', "././Assets/img/tempGameAssets/AKF7v2.png");
         //game.load.image('Minion1', "././Assets/img/tempGameAssets/waterElementalSpin.png");
         game.load.image('HitBox', "././Assets/img/tempGameAssets/hitBox.png");
         game.load.image('p1shoot',"././Assets/img/tempGameAssets/spear.png");

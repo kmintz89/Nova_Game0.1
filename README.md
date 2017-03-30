@@ -2,10 +2,11 @@
 ######Current game build includes:
  - Menu with play button active
  - Temporary instructions screen
- -Map implimentation
- - Gameplay Mechanincs:-
-  - Single PLayer movement
-  - Damage on minion
+ - Gameplay Mechanics:-
+  - Collisions
   - Basic animations for players and enemies
-  - Bullet firing
+  - Bullet firing and deaths
+  - Basic Wave System
   - Basic placeholder sounds
+  
+  

@@ -161,8 +161,8 @@ Player.prototype.PrimaryAttack = function() {
     this.weapon.trackSprite(this);
     this.weapon.damage = 10;
     this.shootSfx = this.pistolSfx;
-    var AK47 = this.addChild(game.make.sprite(-35, -95, 'AK47'));
-    AK47.scale.setTo(0.05, 0.05);
+    //var AK47 = this.addChild(game.make.sprite(-35, -95, 'AK47'));
+    //AK47.scale.setTo(0.05, 0.05);
 
 
 };

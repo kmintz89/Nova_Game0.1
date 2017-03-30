@@ -15,8 +15,8 @@ playState.prototype = {
 
         //this.map.setCollisionBetween(1, 1000, true, this.foreground);
         //this.game.add.image(0, 0, 'HUDimage');
-        this.game.add.image(640, -40, 'NEXUS');
-        this.game.add.image(640, 1050, 'NEXUS');
+        this.game.add.image(674, 0, 'NEXUS2');
+        this.game.add.image(680, 1080, 'NEXUS');
         
         this.spawnWaves = true; //bool to decide whether to spawn waves or not
 
@@ -139,11 +139,11 @@ var enemyProperties = {
     JungleMinion2: {hp: 10, minV: 200, maxV: 80, img: 'smallBubble', dmg: 10, points: 1, score: 25}
 };
 var IceSpawnLocations = {
-        SP1: {x: 200, y: 200},
-        SP2: {x: 400, y: 200},
-        SP3: {x: 800, y: 200},
-        SP4: {x: 1000, y: 200},
-        SP5: {x: 1200, y: 200},
+        SP1: {x: 640, y: 100},
+        SP2: {x: 840, y: 100},
+        SP3: {x: 740, y: 164},
+        SP4: {x: 690, y: 32},
+        SP5: {x: 790, y: 32},
         
 };
 var FireSpawnLocations = {

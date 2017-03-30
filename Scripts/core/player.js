@@ -145,13 +145,13 @@ Player.prototype.createKeys = function(){
                     right: game.input.keyboard.addKey(Phaser.Keyboard.D)
                 };
             this.cursor = wasd;
-            this.fireButton = game.input.keyboard.addKey(Phaser.Keyboard.SHIFT);
+            this.fireButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
             this.pad = game.input.gamepad.pad2;
         }
 };
 
 Player.prototype.PrimaryAttack = function() {
-    this.weapon = game.add.weapon(30, 'HitBox'); //
+    this.weapon = game.add.weapon(30, 'p1shoot'); //
     this.weapon.enableBody = true;
     this.weapon.bulletKillType = Phaser.Weapon.KILL_LIFESPAN;
     //this.weapon.bulletGravity.y =-1000;

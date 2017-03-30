@@ -10,10 +10,12 @@ var loadState = {
         game.load.image('AK47', "././Assets/img/tempGameAssets/AKF7v2.png");
         //game.load.image('Minion1', "././Assets/img/tempGameAssets/waterElementalSpin.png");
         game.load.image('HitBox', "././Assets/img/tempGameAssets/hitBox.png");
+        game.load.image('p1shoot',"././Assets/img/tempGameAssets/spear.png");
         game.load.spritesheet('Minion1', "Assets/img/tempGameAssets/ice2.png",64,64);
         game.load.spritesheet('Minion2', "Assets/img/tempGameAssets/fireElementalSpin.png",64,64);
         game.load.image('HUDimage', "././Assets/img/tempGameAssets/HUD01.png");
-        game.load.image('NEXUS',"././Assets/img/tempGameAssets/Nexus1.png")
+        game.load.image('NEXUS',"././Assets/img/tempGameAssets/nexus-b.png")
+        game.load.image('NEXUS2',"././Assets/img/tempGameAssets/nexus-f.png")
         game.load.audio('bulletSfx', "././Assets/sound/Guns/blaster.mp3");
         game.load.audio('bubbleSfx', "././Assets/sound/Blorp/Blorp.mp3");
         game.load.audio('shotgunSfx',"././Assets/sound/Guns/shotgun.mp3");

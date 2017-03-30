@@ -16,7 +16,7 @@ playState.prototype = {
         //this.map.setCollisionBetween(1, 1000, true, this.foreground);
         //this.game.add.image(0, 0, 'HUDimage');
         this.game.add.image(674, 0, 'NEXUS2');
-        this.game.add.image(680, 1080, 'NEXUS');
+        this.game.add.image(680, 1160, 'NEXUS');
         
         this.spawnWaves = true; //bool to decide whether to spawn waves or not
 
